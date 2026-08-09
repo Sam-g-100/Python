@@ -1,5 +1,62 @@
+
+'''
 import array as ar
 x=ar.array('i',[10,20,30,40,50])
-#y = x[-4:]
+y = x[-4:]
 x.pop(2)
-#print(x)
+print(x)
+
+arr = [10, 25, 7, 40, 15]
+
+smallest = arr[0]
+
+for i in arr:
+    if i < smallest:
+        smallest = i
+
+print("Smallest =", smallest)
+
+
+arr = [10, 25, 7, 40, 15]
+
+largest = arr[0]
+
+for i in arr:
+    if i > largest:
+        largest = i
+
+print("Largest =", largest)
+
+
+arr = [1, 2, 3, 4, 5, 6]
+
+even = 0
+odd = 0
+
+for i in arr:
+    if i % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+print("Even =", even)
+print("Odd =", odd)
+'''
+
+arr = [-2, 0, 5, -7, 3, 0]
+
+positive = 0
+negative = 0
+zero = 0
+
+for i in arr:
+    if i > 0:
+        positive += 1
+    elif i < 0:
+        negative += 1
+    else:
+        zero += 1
+
+print("Positive =", positive)
+print("Negative =", negative)
+print("Zero =", zero)

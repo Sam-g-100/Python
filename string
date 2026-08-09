@@ -1,8 +1,9 @@
-#str="welcome to \\ avcoe"
-#str="welcome to \n avcoe"
-#str="welcome to \t avcoe"
-#str="welcome to \v avcoe"
-
+'''
+str="welcome to \\ avcoe"
+str="welcome to \n avcoe"
+str="welcome to \t avcoe"
+str="welcome to \v avcoe"
+'''
 #str="welcome to avcoe"
 #n=len(str)
 
@@ -13,3 +14,23 @@
 #print(Fruit[1:4])
 #print(Fruit[0:-3])
 
+#s1='samadhan'
+#s2='samarth'
+#s3=s1+s2
+#print(s3)
+
+#s1='samadhan'
+#print(s1.replace('sam', 'SAM'))
+
+
+"""
+s1='samadhan'
+print(s1.upper())
+print(s1.lower())
+print(s1.capitalize())
+print(len(s1))
+"""
+impory array as ar
+s1='samadhan'
+str=.sort()
+print(s1)

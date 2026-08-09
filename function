@@ -6,13 +6,39 @@ def sum(a,b):
     c=a+b
     print("The sum of", a, "and", b, "is:", c)
 sum(a,b)
-'''
 
-'''
+
+
 a=int(input("Enter the number: "))
 
 if a % 2 == 0:
     print("The number is even")
 else:
     print("The number is odd")
+
+
+#LOCAL AND GLOBAL VARIABLE
+
+x = 10  # global variable
+def my_function():
+    x = 5  # local variable
+    print("Local x:", x)  
+my_function()
+print("Global x:", x)
+
+
+#DEFAULT ARGUMENTS
+def name(a=1,b=3):
+  print("avg",(a+b)/2)
+name()  
+
+#KEYWORD ARGUMENT
+def name(a,b):
+  print("avg",(a+b)/2)
+name(5,7)  
+
+#REQUIRD ARGUMENT
+def name(a,b,c=6):
+  print("avg",(a+b+c)/3)
+name(a=5,b=7)  
 '''

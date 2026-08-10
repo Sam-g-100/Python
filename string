@@ -1,4 +1,4 @@
-'''
+
 str="welcome to \\ avcoe"
 str="welcome to \n avcoe"
 str="welcome to \t avcoe"
@@ -23,7 +23,6 @@ str="welcome to \v avcoe"
 #print(s1.replace('sam', 'SAM'))
 
 
-"""
 s1='samadhan'
 print(s1.upper())
 print(s1.lower())

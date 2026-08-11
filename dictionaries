@@ -1,1 +1,9 @@
 
+dict={"name":"sam","age":22}
+print(dict)
+#print(dict.key())
+#print(dict.values())
+print(dict.clear())
+
+d1=dict.copy()
+print(d1)

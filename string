@@ -7,9 +7,9 @@ str="welcome to \v avcoe"
 #str="welcome to avcoe"
 #n=len(str)
 
-#Fruit="MANGO"
-#print(Fruit[:])
-#print(Fruit[:5])
+Fruit="MANGO"
+print(Fruit[:])
+print(Fruit[:5])
 print(Fruit[0:5])
 print(Fruit[1:4])
 print(Fruit[0:-3])

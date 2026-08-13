@@ -10,9 +10,9 @@ str="welcome to \v avcoe"
 #Fruit="MANGO"
 #print(Fruit[:])
 #print(Fruit[:5])
-#print(Fruit[0:5])
-#print(Fruit[1:4])
-#print(Fruit[0:-3])
+print(Fruit[0:5])
+print(Fruit[1:4])
+print(Fruit[0:-3])
 
 s1='samadhan'
 s2='samarth'

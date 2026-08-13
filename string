@@ -14,10 +14,10 @@ str="welcome to \v avcoe"
 #print(Fruit[1:4])
 #print(Fruit[0:-3])
 
-#s1='samadhan'
-#s2='samarth'
-#s3=s1+s2
-#print(s3)
+s1='samadhan'
+s2='samarth'
+s3=s1+s2
+print(s3)
 
 #s1='samadhan'
 #print(s1.replace('sam', 'SAM'))

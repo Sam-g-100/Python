@@ -1,8 +1,8 @@
 while True:
-    a = int(input("Enter first number: "))
-    b = int(input("Enter second number: "))
+    a = int(input("Enter first number : "))
+    b = int(input("Enter second number : "))
 
-    print("\nChoose Operation:")
+    print("\nChoose Operation :")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")

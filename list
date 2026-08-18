@@ -1,7 +1,6 @@
 
 a=[1,26,66,3,14,45,6]
 
-'''
 print("Original list:", a)
 
 a.append(7)
@@ -15,9 +14,7 @@ print("List after deleting element at index 7:", a)
 del a[:]
 print("List after deleting element :", a)
 '''
-print(len(a))
-print(max(a))
-print(min(a))
+
 print(sum(a))
 print(sorted(a))
 print(3 not in a)
@@ -25,3 +22,11 @@ print(3 in a)
 print(a.count(3))
 a.reverse()
 print(a)
+
+
+a=[1,26,66,3,14,45,6]
+
+
+print(len(a))
+print(max(a))
+print(min(a))
